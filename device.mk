@@ -191,7 +191,7 @@ PRODUCT_PACKAGES += \
     init.mi439.perf.rc \
     init.xiaomi.device.rc \
     init.qcom.rc \
-    init.qcom.usb.rc \
+    init.olive.usb.rc \
     init.recovery.qcom.rc \
     init.target.rc \
     init.xiaomi.rc \
@@ -203,7 +203,6 @@ PRODUCT_PACKAGES += \
     init.qcom.post_boot.sh \
     init.qcom.sensors.sh \
     init.qcom.sh \
-    init.qcom.usb.sh \
     init.qti.dcvs.sh \
     init.qti.qseecomd.sh \
     init.xiaomi.device.sh
@@ -386,18 +385,15 @@ PRODUCT_SHIPPING_API_LEVEL := 28
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    vendor/qcom/opensource/usb/etc \
     $(LOCAL_PATH)
 
 # Thermal
 PRODUCT_PACKAGES += \
     android.hardware.thermal@2.0-service.qti.xiaomi_sdm439
 
-# USB
+# USB HAL
 PRODUCT_PACKAGES += \
-    usb_compositions.conf \
-    android.hardware.usb@1.3-service.basic \
-    android.hardware.usb.gadget@1.2-service-qti
+    android.hardware.usb@1.3-service.basic
 
 # Vibrator
 PRODUCT_PACKAGES += \
