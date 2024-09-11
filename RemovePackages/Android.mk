@@ -9,7 +9,19 @@ LOCAL_OVERRIDES_PACKAGES := \
     Drive \
     Gmail2 \
     Maps \
-    YouTube
+    YouTube \
+    CalendarGooglePrebuilt \
+    PrebuiltGmail \
+    SettingsIntelligenceGooglePrebuilt \
+    arcore \
+    PixelLiveWallpaperPrebuilt \
+    GoogleCamera \
+    Photos \
+    CalculatorGooglePrebuilt \
+    Chrome-Stub \
+    PixelThemesStub \
+    WallpaperEmojiPrebuilt \
+    AiWallpapers
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_SRC_FILES := /dev/null
