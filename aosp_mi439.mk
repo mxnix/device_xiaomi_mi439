@@ -28,10 +28,6 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI SDM439
 PRODUCT_MANUFACTURER := Xiaomi
 
-
-# Flags
-TARGET_CORE_GMS_EXTRAS := false
-
 # Boot animation resolution.
 TARGET_BOOT_ANIMATION_RES := 720
 
